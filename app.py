@@ -4,7 +4,7 @@ import pandas as pd
 import joblib
 
 # Load saved model
-model = joblib.load("logistic_regression_base_model.pkl")   # apne model ka naam yahan likho
+model = joblib.load("Model/logistic_regression_base_model.pkl")   # apne model ka naam yahan likho
 
 st.set_page_config(page_title="Customer Churn Prediction", page_icon="📊")
 
